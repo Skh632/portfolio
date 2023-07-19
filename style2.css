@@ -48,6 +48,7 @@
       section{
         padding: 150px;
         background-color: #fffff9;
+        
       }
 
       .btn1 {
@@ -82,27 +83,45 @@
       }
 
       h2 {
+        margin-top: 60px;
         font-family: 'Zen Kaku Gothic New', sans-serif;
         text-align: center;
         color: #281a14;
-        transform: rotate(15deg);
+        transform: rotate(-15deg);
       }
 
         section p {
           padding: 40px;
+          height: auto;
           margin-top: 50px;
-          margin-left: 50px;
+          margin-left: 150px;
           font-family: 'Zen Kaku Gothic New', sans-serif;
           text-align: center;
           letter-spacing: 0.1rem;
           color: #281a14;
           line-height: 30px;
+          display: block;
+          
+        }
+
+        .p3 {
+          padding: 30px;
+          margin-top: 20px;
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          text-align: center;
+          letter-spacing: 0.1rem;
+          color: #281a14;
+          line-height: 30px;
+          display: block;
+
         }
         
         .circle img {
           border-radius: 50%;
+          margin-top: 100px;
           margin-left: 70px;
           width: 300px;
+          max-width: 300%;
         }
       
         .p2 {
@@ -140,11 +159,19 @@
           header ul {
             margin-top: 0;
           }
+
+          p {
+            font-size: 75%;
+          }
       }
       
       @media all and (min-width: 1025px) {
       
         .item {
           width: 33.3%;
+        }
+
+        p {
+          font-size: 100%;
         }
       }

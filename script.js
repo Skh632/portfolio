@@ -5,7 +5,7 @@ $(function(){
    $('a[href^="#"]').click(function() {
 
       // 初期設定：移動時間(ms)と頭出し位置
-      var speed = 2000;
+      var speed = 1000;
       var offset = -0;
 
       // アンカーを取得
