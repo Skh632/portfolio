@@ -45,14 +45,17 @@
         font-family: 'Lexend', sans-serif;
       }
       
+  
+
       section{
-        padding: 150px;
+        padding: 50px 0px;
         background-color: #fffff9;
         
       }
 
       .btn1 {
-        display: flex;
+        display: block;
+        position: relative;
       }
 
       .item {
@@ -80,23 +83,28 @@
           text-align: center;
           letter-spacing: 0.1em;
           color: #281a14;
+          margin-bottom: 30px;
       }
 
       h2 {
-        margin-top: 60px;
+        margin-top: 10px;
         font-family: 'Zen Kaku Gothic New', sans-serif;
         text-align: center;
+        letter-spacing: 0.4em;
         color: #281a14;
         transform: rotate(-15deg);
+        writing-mode: vertical-rl;
+        position: absolute;
+        top: 5px;
+        left: 180px;
       }
 
         section p {
           padding: 40px;
           height: auto;
           margin-top: 50px;
-          margin-left: 150px;
           font-family: 'Zen Kaku Gothic New', sans-serif;
-          text-align: center;
+          text-align: left;
           letter-spacing: 0.1rem;
           color: #281a14;
           line-height: 30px;
@@ -118,8 +126,8 @@
         
         .circle img {
           border-radius: 50%;
-          margin-top: 100px;
-          margin-left: 70px;
+          margin: auto;
+          display: block;
           width: 300px;
           max-width: 300%;
         }
@@ -161,7 +169,8 @@
           }
 
           p {
-            font-size: 75%;
+            font-size: 70%;
+
           }
       }
       
@@ -174,4 +183,60 @@
         p {
           font-size: 100%;
         }
+
+        section{
+          padding: 150px;
+          background-color: #fffff9;
+          
+        }
+
+        .btn1 {
+          display: flex;
+          position: relative;
+          
+        }
+
+        h1 {
+          font-family: 'Lexend', sans-serif;
+            text-align: center;
+            letter-spacing: 0.1em;
+            color: #281a14;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+          margin-top: 60px;
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          text-align: center;
+          letter-spacing: 0.4em;
+          color: #281a14;
+          transform: rotate(-15deg);
+          writing-mode: vertical-rl;
+          position: absolute;
+          top: 20px;
+          left: 130px;
+        }
+
+        section p {
+          padding: 40px;
+          height: auto;
+          margin-top: 50px;
+          margin-left: 300px;
+          font-family: 'Zen Kaku Gothic New', sans-serif;
+          text-align: center;
+          letter-spacing: 0.1rem;
+          color: #281a14;
+          line-height: 30px;
+          display: block;
+          
+        }
+
+        .circle img {
+          border-radius: 50%;
+          margin-top: 100px;
+          margin-left: 100px;
+          width: 300px;
+          max-width: 300%;
+        }
+
       }
