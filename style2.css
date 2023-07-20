@@ -104,6 +104,7 @@
           height: auto;
           margin-top: 50px;
           font-family: 'Zen Kaku Gothic New', sans-serif;
+          font-size: 13px;
           text-align: left;
           letter-spacing: 0.1rem;
           color: #281a14;
@@ -130,6 +131,12 @@
           display: block;
           width: 300px;
           max-width: 300%;
+        }
+
+     .circle{
+          position: relative;
+          width: 300px;
+          margin: auto;
         }
       
         .p2 {
